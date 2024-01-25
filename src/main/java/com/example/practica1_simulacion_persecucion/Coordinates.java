@@ -20,6 +20,7 @@ public class Coordinates {
     public void yMovement(int y) {
         this.y += y;
     }
+    // Método para calcular la distancia entre dos posiciones (coordenadas)
     public int getDistance(Coordinates position) {
         return Math.abs(position.x - x) + Math.abs(position.y-y);
     }
